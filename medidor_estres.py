@@ -6,7 +6,7 @@ import csv
 from datetime import datetime
 
 # ============================================================
-# PREGUNTAS DE LA ESCALA ECEA - VERSIÓN REDUCIDA (20 ítems)
+# PREGUNTAS DE LA ESCALA ECEA
 # ============================================================
 PREGUNTAS = [
     "1. Cuando me preguntan en clase",
@@ -142,7 +142,7 @@ class MedidorEstres:
 
         tk.Label(frame, text="MEDIDOR DE ESTRÉS ACADÉMICO",
                  font=("Arial", 20, "bold"), bg="#f0f4f8", fg="#1a365d").pack(pady=20)
-        tk.Label(frame, text="Escala de Estresores Académicos (ECEA) - Versión reducida",
+        tk.Label(frame, text="Escala de Estresores Académicos (ECEA)",
                  font=("Arial", 13), bg="#f0f4f8", fg="#2c5282").pack(pady=5)
         tk.Label(frame, text="20 ítems | Escala Likert 1-5",
                  font=("Arial", 11), bg="#f0f4f8", fg="#4a5568").pack(pady=5)
